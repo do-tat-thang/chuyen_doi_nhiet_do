@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p><h1>Temperature Converter</h1></p>
+<p><h4>Type a value in the Fahrenheit field to convert the value to Celsius:</h4></p>
+<p><h4>Fahrenheit <input type="number"   oninput="hihi(this.value)" /></h4></p>
+
+<p><h4>Celcius: <span id ="haha"></span></h4></p>
+<script>
+    function hihi(hehe) {
+        hehe =  parseFloat(hehe);
+        document.getElementById("haha").innerHTML=(hehe-32)/1.8;
+
+        
+    }
+</script>
+
+</body>
+</html>
